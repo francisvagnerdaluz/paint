@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    position: absolute;
+    top: 575px;
+    left: 930px;
+    font-family: sans-serif;
+    color: gray;
+}
+canvas{
+    background-color: ghostwhite;
+}
+#escolhas{
+    width: 300px;
+    position: absolute;
+    left: 3px;
+    top: 20px;
+}
+#escolhas button {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#escolhas button:hover {
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+#visualizar {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 50%;
+    z-index: 1;
+    top: 1px;
+    left: 1px;
+    cursor: pointer;
+}
+.invisivel{
+    display: none;
+}
