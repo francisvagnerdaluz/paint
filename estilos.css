@@ -1,6 +1,15 @@
 *{
     margin: 0;
 }
+.borracha{
+    position: absolute;
+    left: 30px;
+    top: 3px;
+    background-color: white;
+    color: lightgray;
+    border: none;
+    cursor: pointer;
+}
 a{
     text-decoration: none;
     position: absolute;

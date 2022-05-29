@@ -1,8 +1,6 @@
-import {Pincel} from "./pincel.js";
-import {Cores} from "./cores.js";
-import {abrirLista} from "./scripts.js";
-const tamanho=localStorage.getItem('Tamanho')
-const cor=localStorage.getItem('Cor')
+import {Borracha, Cores} from "./cores.js";
+import {abrirBorracha, abrirLista} from "./scripts.js";
 abrirLista()
-Pincel(tamanho,cor)
+abrirBorracha()
 Cores()
+Borracha()
